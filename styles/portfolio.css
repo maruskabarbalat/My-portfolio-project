@@ -29,6 +29,10 @@ h2{
     font-size: 64px;
 }
 
+h4{
+    font-size: 45px;
+}
+
 p{
     font-weight: normal;
     font-size: 16px;
@@ -153,6 +157,16 @@ footer {
     margin: 60px 0;
 }
 
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
 footer .email-link {
     text-decoration: none;
     color: black;
@@ -189,6 +203,8 @@ footer .social-links a:hover {
     h2{
         font-size: 44px;
     }
+
+    
 
     .hero {
         padding: 80px 20px;
